@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+  input[type=submit]:hover {
+    background-color: #45a049;
+}
+  
+  .container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    opacity: 50%;
+    padding: 20px;
+    margin-top: 20px;
+}
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+    .row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{ 
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type=submit]{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.navbar{
+    display: flex;
+    margin: auto 0;
+    padding: 5px;
+    height: 40px;
+    border: 2px solid black;
+    justify-content: space-between;
+}
+.logo{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+.textos{
+    display: flex;
+    margin: auto 0;
+    align-items: center;
+    justify-content: flex-end;
+}
+.navbar a {
+    color: white;
+    margin-left: 8px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.navbar a:hover {
+    letter-spacing: 3px;
+    transition: all 0.3s;
+    text-decoration: underline;
+}
+.navbar img{
+    width: 20%;
+    cursor: pointer;
+}
